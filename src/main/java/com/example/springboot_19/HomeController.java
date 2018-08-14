@@ -1,6 +1,5 @@
 package com.example.springboot_19;
 
-
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -15,8 +14,8 @@ public class HomeController {
         return "login";
     }
 
-    @RequestMapping("/admin")
-    public String admin(){
-        return "admin";
+    @RequestMapping("/secure")
+    public String secure(){
+        return "secure";
     }
 }
