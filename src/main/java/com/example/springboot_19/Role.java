@@ -16,6 +16,7 @@ public class Role {
     private Collection<User> users;
 
     public long getId() {
+
         return id;
     }
 
